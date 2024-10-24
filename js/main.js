@@ -7799,7 +7799,7 @@
                             value: this.showFPS,
                             expression: "showFPS"
                         }]
-                    }, [this._v("RISE.EXE by Zimek")]), this._v(" "), t("div", {
+                    }, [this._v("RISE.EXE by Nosx")]), this._v(" "), t("div", {
                         directives: [{
                             name: "show",
                             rawName: "v-show",
