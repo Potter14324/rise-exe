@@ -8649,7 +8649,7 @@ window.SwalAlerts.toast.fire({
             timer: 1500
         }), navigator.clipboard.writeText(e)
     }, $("#player-data").getElementsByTagName("div")[0].innerHTML += `<i data-v-1bcde71e="" id="openSkins" class="tab fas" style="width:140px;font-family:Arial;font-weight:200;font-size:16px;cursor:pointer;">
-Multibox Profile
+Multibox 
 </i>
 <div style="margin-top:20px;">
 <img id="skinDisplay1" width="120" style="margin-right:15px;border-radius:50%;" src="${localStorage.skinUrl}">
