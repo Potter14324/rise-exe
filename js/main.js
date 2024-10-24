@@ -4694,15 +4694,7 @@
                         }
                     }, [s("button", {
                         attrs: {
-                            (function() {
-                                'use strict';
-                            
-                                // Change the color of the player-button element to red
-                                const playerButton = document.getElementById('player-button');
-                                if (playerButton) {
-                                    playerButton.style.color = 'red'; // Change text color to red
-                                }
-                            })();
+                           
                             id: "play-button",
                             disabled: !e.gameState.allowed || e.gameState.playButtonDisabled || e.gameState.deathScreen || e.gameState.deathDelay
                         },
