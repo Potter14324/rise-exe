@@ -7,16 +7,6 @@
     };
 
 
-
-
-
-
-
-
-
-
-    
-
     document.title = "Vanis.io - RISE.EXE"
     console.log('%cRISE.EXE v1.1.4 by Nosx', 'font-size:25px;font-weight:bold')
 
