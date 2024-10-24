@@ -1,6 +1,7 @@
 .fade-box {
-   
+    background-color: transparent ;
     border-radius: 15px;       /* Rounds the corners */
+   
 }
 
 
