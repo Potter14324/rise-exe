@@ -8708,4 +8708,61 @@ Multibox Profile
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+function injectCustomCSS() {
+    const styles = `
+        .options-box {
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: #f4f4f4;
+            position: relative;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 10px;
+        }
+
+        .options-box h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .options-box button {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .options-box button:hover {
+            background-color: #0056b3;
+        }
+    `;
+
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+}
+
+// Inject the custom styles
+injectCustomCSS();
 }(window);
