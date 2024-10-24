@@ -1,27 +1,6 @@
 .fade-box {
     
-    
+    background-color: white;
     transition: background-color 0.5s ease; /* Smooth transition effect */
 }
 
-.fade-box.red {
-    background-color: #ff0000; /* Red */
-}
-
-.fade-box.green {
-    background-color: #00ff00; /* Green */
-}
-
-.fade-box.blue {
-    background-color: #0000ff; /* Blue */
-}
-
-.fade-box.yellow {
-    background-color: #ffff00; /* Yellow */
-}
-
-.fade-box.purple {
-    background-color: #800080; /* Purple */
-}
-
-/* Add more colors as needed */
