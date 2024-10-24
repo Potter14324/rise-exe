@@ -5772,43 +5772,6 @@
 
 
 
-
-
-
-
-
-                         return s("div", {
-                        staticClass: "container"
-                    }, [s("div", {
-                        staticClass: "section row"
-                    }, [s("div", {
-                        staticClass: "header"
-                    }, [e._v("\n        UI Theme\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options"
-                    }, [s("span", [s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.backgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("backgroundColor", t)
-                            }
-                        }
-
-
-
-
-
-
-
-
-
-
-
-
                         
                     })], 1), e._v(" "), s("div", {
                         staticClass: "color-input"
