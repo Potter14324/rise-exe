@@ -6228,7 +6228,6 @@
                 
                     },
                     style: {
-                        borderRadius:"50%";
                         backgroundColor: "#" + e.hex
                         
                         
