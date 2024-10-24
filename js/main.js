@@ -6230,7 +6230,7 @@
                     },
                     style: {
                         backgroundColor: "#" + e.hex,
-                        borderRadius: "50% !important"
+                        
                         
                         
                     },
