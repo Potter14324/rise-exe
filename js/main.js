@@ -4964,7 +4964,7 @@
                         attrs: {
                             type: "range",
                             min: "0",
-                            max: "1500",
+                            max: "3000",
                             step: "10"
                         },
                         domProps: {
