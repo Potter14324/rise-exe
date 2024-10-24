@@ -5783,8 +5783,8 @@
                         staticClass: "section row"
                     }, [s("div", {
                         staticClass: "header"
-                    }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options two-columns"
+                    }, [e._v("\n        UI Theme\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options"
                     }, [s("span", [s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
