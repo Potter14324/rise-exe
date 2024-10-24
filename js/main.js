@@ -7,7 +7,7 @@
     };
 
     document.title = "Vanis.io - RISE.EXE"
-    console.log('%cRISE.EXE v1.1.4 by 3079', 'font-size:25px;font-weight:bold')
+    console.log('%cRISE.EXE v1.1.4 by Zimek', 'font-size:25px;font-weight:bold')
 
     window.CellOverlayManager = { cache:{} } 
 
@@ -30,7 +30,7 @@
 
     CellOverlayManager.list = [
         {
-            name:'zimek',
+            name:'',
             skinUrl:'https://skins.vanis.io/s/Owljce',
             isLockedToColor:true,
             isLockedToName:true,
@@ -8670,7 +8670,7 @@ Multibox Profile
     })
 
     let vv = document.createElement('a')
-    vv.innerText = 'Vanilla Vanis.io'
+    vv.innerText = 'Vanilla '
     vv.href = 'https://vanis.io/?vanilla'
     vv.style.position = 'fixed'
     vv.style.bottom = '0'
