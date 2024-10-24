@@ -6225,13 +6225,16 @@
                     staticClass: "color-button",
                     class: {
                         disabled: e.disabled
+                
                     },
                     style: {
                         backgroundColor: "#" + e.hex
+                        
                     },
                     on: {
                         mousedown: function() {
                             e.disabled || e.showPicker(!0)
+                            border-radius: 50%;
                         }
                     }
                 }, [e.pickerOpen ? s("div", {
