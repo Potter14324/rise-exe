@@ -1,12 +1,4 @@
-.color-palette {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-}
 
 .fade-box {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    margin-right: 10px;
-    transition: background-color 0.5s ease; /* Smooth transition effect */
+   border-radius: 15px;
 }
