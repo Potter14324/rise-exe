@@ -5772,39 +5772,6 @@
 
 
 
-
-
-
-
-
-
-
-                           return s("div", {
-                        staticClass: "container"
-                    }, [s("div", {
-                        staticClass: "section row"
-                    }, [s("div", {
-                        staticClass: "header"
-                    }, [e._v("\n        test\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options two-columns"
-
-                               },
-                                                                     
-                  
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        
                     })], 1), e._v(" "), s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("Map border")]), e._v(" "), s("color-option", {
