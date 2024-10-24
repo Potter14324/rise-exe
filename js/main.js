@@ -6,6 +6,36 @@
         }, 50)
     };
 
+
+
+
+
+
+
+
+document.querySelectorAll('.color-palette').forEach(palette => {
+    const box = palette.querySelector('.fade-box');
+    const colorPicker = palette.querySelector('input[type="color"]');
+
+    // Set the box's initial color
+    box.style.backgroundColor = colorPicker.value;
+
+    // Update the box's color when the color picker changes
+    colorPicker.addEventListener('input', () => {
+        box.style.backgroundColor = colorPicker.value;
+    });
+});
+
+
+
+
+
+
+
+
+
+    
+
     document.title = "Vanis.io - RISE.EXE"
     console.log('%cRISE.EXE v1.1.4 by Nosx', 'font-size:25px;font-weight:bold')
 
