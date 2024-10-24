@@ -5829,7 +5829,7 @@
                         },
                         on: {
                             input: function(t) {
-                                return e.change("cellNameColor", t)
+                                return e.change("cellNameOutlineColor", t)
                             }
                         }
                     })], 1)]), e._v(" "), s("span", [s("div", {
