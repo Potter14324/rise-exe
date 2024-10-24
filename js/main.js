@@ -7,7 +7,7 @@
     };
 
     document.title = "Vanis.io - RISE.EXE"
-    console.log('%cRISE.EXE  by ADOX', 'font-size:25px;font-weight:bold')
+    console.log('%cRISE.EXE  by Zimehh', 'font-size:25px;font-weight:bold')
 
     window.CellOverlayManager = { cache:{} } 
 
@@ -30,7 +30,7 @@
 
     CellOverlayManager.list = [
         {
-            name:'zimek',
+            name:'',
             skinUrl:'https://skins.vanis.io/s/Owljce',
             isLockedToColor:true,
             isLockedToName:true,
