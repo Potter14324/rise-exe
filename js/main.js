@@ -4413,27 +4413,7 @@
                     attrs: {
                         id: "tab-menu"
                     }
-                     on: {
-        mouseenter: function() {
-            // Add the hovered class when the mouse enters the tab-menu
-            document.getElementById('tab-menu').classList.add('hovered');
-        },
-        mouseleave: function() {
-            // Remove the hovered class when the mouse leaves the tab-menu
-            document.getElementById('tab-menu').classList.remove('hovered');
-        }
-    }
-}, [s("div", {
-    staticClass: "tabs"
-}, e._l(e.regionCodes, function(t, i) {
-    return s("div", {
-        key: i,
-        staticClass: "tab",
-        class: {
-            active: e.selectedRegion === t
-        }
-    }, [ /* rest of the code for your tab content */ ]) 
-}))]);
+                     
                 }, [s("div", {
                     staticClass: "tabs"
                 }, e._l(e.regionCodes, function(t, i) {
