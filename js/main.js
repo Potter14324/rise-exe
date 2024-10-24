@@ -6223,12 +6223,14 @@
                     s = e._self._c || t;
                 return s("div", {
                     staticClass: "color-button",
+                    
                     class: {
                         disabled: e.disabled
                 
                     },
                     style: {
-                        backgroundColor: "#" + e.hex
+                        backgroundColor: "#" + e.hex,
+                        borderRadius:"50%";
                         
                         
                     },
