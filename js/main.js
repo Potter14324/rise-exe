@@ -8689,4 +8689,72 @@ Multibox Profile
     vv.style.marginBottom = '10px'
     document.getElementById('overlay').appendChild(vv)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    return s("div", {
+    attrs: {
+        id: "tab-menu"
+    },
+}, [
+    s("div", {
+        staticClass: "fade-box"
+    }),
+    s("div", {
+        staticClass: "tabs"
+    }, e._l(e.regionCodes, function(t, i) {
+        return s("div", {
+            key: i,
+            staticClass: "tab",
+            class: {
+                active: e.selectedRegion === t
+            }
+        }, [ /* rest of the tab content */ ])
+    }))
+]);
+function injectFadeBoxCSS() {
+    const css = `
+        #tab-menu .fade-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(45deg, #ff0080, #ff8000, #00ff80, #0080ff);
+            background-size: 400% 400%;
+            animation: gradientFade 10s ease infinite;
+            border-radius: 10px;
+        }
+        @keyframes gradientFade {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        #tab-menu .tabs {
+            position: relative;
+            z-index: 1;
+        }
+    `;
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = css;
+    document.head.appendChild(styleSheet);
+}
+
+injectFadeBoxCSS();
+
+
 }(window);
