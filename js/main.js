@@ -13,25 +13,6 @@
 
 
 
-document.querySelectorAll('.color-palette').forEach(palette => {
-    const box = palette.querySelector('.fade-box');
-    const colorPicker = palette.querySelector('input[type="color"]');
-
-    // Set the box's initial color
-    box.style.backgroundColor = colorPicker.value;
-
-    // Update the box's color when the color picker changes
-    colorPicker.addEventListener('input', () => {
-        box.style.backgroundColor = colorPicker.value;
-    });
-});
-
-
-
-
-
-
-
 
 
     
