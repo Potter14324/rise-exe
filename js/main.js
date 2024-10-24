@@ -6230,6 +6230,9 @@
                     },
                     style: {
                         backgroundColor: "#" + e.hex,
+                        <div>
+                        style="borderRadius:50%"
+                        </div>
                         
                         
                         
