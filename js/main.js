@@ -8703,58 +8703,5 @@ Multibox Profile
 
 
 
-// This is where you'll inject the CSS for the fade-box
-function injectFadeBoxCSS() {
-    const css = `
-        #tab-menu .fade-box {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: linear-gradient(45deg, #ff0080, #ff8000, #00ff80, #0080ff);
-            background-size: 400% 400%;
-            animation: gradientFade 10s ease infinite;
-            border-radius: 10px;
-        }
-        @keyframes gradientFade {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-        #tab-menu .tabs {
-            position: relative;
-            z-index: 1;
-        }
-    `;
-    const styleSheet = document.createElement("style");
-    styleSheet.type = "text/css";
-    styleSheet.innerText = css;
-    document.head.appendChild(styleSheet);
-}
-
-// Function to add the fade-box and modify the tab menu
-function addFadeBox() {
-    const tabMenu = document.getElementById("tab-menu");
-
-    if (tabMenu) {
-        // Create fade-box element
-        const fadeBox = document.createElement("div");
-        fadeBox.className = "fade-box";
-        
-        // Insert the fade-box at the beginning of the tab menu
-        tabMenu.insertBefore(fadeBox, tabMenu.firstChild);
-
-        // Inject the CSS styles for fade-box
-        injectFadeBoxCSS();
-    }
-}
-
-// Run the function to add fade-box when the script loads
-window.onload = function() {
-    addFadeBox();
-};
-
 
 }(window);
