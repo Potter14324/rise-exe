@@ -6229,12 +6229,13 @@
                     },
                     style: {
                         backgroundColor: "#" + e.hex
+                        border-radius:50%;
                         
                     },
                     on: {
                         mousedown: function() {
                             e.disabled || e.showPicker(!0)
-                            border-radius: 50%;
+                            
                         }
                     }
                 }, [e.pickerOpen ? s("div", {
