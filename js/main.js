@@ -2862,7 +2862,7 @@
                     return n[e] || (n[e] = (t = e, (h = (s = c = (l = i.cellSize) / 2, o = t, (r = new PIXI.Graphics).beginFill(o), r.drawCircle(0, 0, s), r.endFill(), r)).position.set(c), 
                         d = i.ultrarender ? (()=>{
                             var base = new PIXI.BaseRenderTexture(l,l, PIXI.SCALE_MODES.LINEAR);
-                            baseRenderTexture.mipmap = 2
+                            baseRenderTexture.map = 2
                             return new PIXI.RenderTexture(base) 
                         })() : (()=>{return PIXI.RenderTexture.create(l, l)})(), a.render(h, d), i.ultrarender ? a.framebuffer.blit() : null, d 
                     ))
@@ -4413,6 +4413,27 @@
                     attrs: {
                         id: "tab-menu"
                     }
+                     on: {
+        mouseenter: function() {
+            // Add the hovered class when the mouse enters the tab-menu
+            document.getElementById('tab-menu').classList.add('hovered');
+        },
+        mouseleave: function() {
+            // Remove the hovered class when the mouse leaves the tab-menu
+            document.getElementById('tab-menu').classList.remove('hovered');
+        }
+    }
+}, [s("div", {
+    staticClass: "tabs"
+}, e._l(e.regionCodes, function(t, i) {
+    return s("div", {
+        key: i,
+        staticClass: "tab",
+        class: {
+            active: e.selectedRegion === t
+        }
+    }, [ /* rest of the code for your tab content */ ]) 
+}))]);
                 }, [s("div", {
                     staticClass: "tabs"
                 }, e._l(e.regionCodes, function(t, i) {
