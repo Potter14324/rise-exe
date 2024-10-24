@@ -6228,13 +6228,14 @@
                 
                     },
                     style: {
+                        borderRadius:"50%";
                         backgroundColor: "#" + e.hex
-                        borderRadius: "50%"
+                        
                         
                     },
                     on: {
                         mousedown: function() {
-                            e.disabled || e.showPicker(!0)
+                            e.dosabled || e.showPicker(!0)
                             
                         }
                     }
