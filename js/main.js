@@ -8670,7 +8670,7 @@ Multibox Profile
     })
 
     let vv = document.createElement('a')
-    vv.innerText = 'Vanilla Vanis.io'
+    vv.innerText = 'Vanilla '
     vv.href = 'https://vanis.io/?vanilla'
     vv.style.position = 'fixed'
     vv.style.bottom = '0'
