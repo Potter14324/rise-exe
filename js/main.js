@@ -7,7 +7,7 @@
     };
 
     document.title = "Vanis.io - RISE.EXE"
-    console.log('%cRISE.EXE  by Zimehh', 'font-size:25px;font-weight:bold')
+    console.log('%cRISE.EXE v1.1.5 by Jett', 'font-size:25px;font-weight:bold')
 
     window.CellOverlayManager = { cache:{} } 
 
