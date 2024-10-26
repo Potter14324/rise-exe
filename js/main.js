@@ -26,6 +26,30 @@ style.appendChild(document.createTextNode(`
 // Append the style element to the head of the document
 document.head.appendChild(style);
 
+// Create a new style element
+const style = document.createElement('style');
+style.type = 'text/css';
+
+// Add the CSS rule
+style.appendChild(document.createTextNode(`
+    .skin[data-v-1c614894] {
+        cursor: pointer;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 6px 2px #303030;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        transition: .2s;
+    }
+`));
+
+// Append the style element to the head of the document
+document.head.appendChild(style);
 
 
 
