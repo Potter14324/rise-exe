@@ -4941,17 +4941,17 @@
                     }, [e._v("Show team")]), e._v(" "), 
                     
                     
-                    // s("p-check", {
-                    //     staticClass: "p-switch",
-                    //     attrs: {
-                    //         checked: e.showDir
-                    //     },
-                    //     on: {
-                    //         change: function(t) {
-                    //             return e.change("showDir", t)
-                    //         }
-                    //     }
-                    // }, [e._v("(BETA) Show direction")]), e._v(" "),
+                     s("p-check", {
+                         staticClass: "p-switch",
+                         attrs: {
+                             checked: e.showDir
+                         },
+                         on: {
+                             change: function(t) {
+                                 return e.change("showDir", t)
+                             }
+                         }
+                     }, [e._v("(BETA) Show direction")]), e._v(" "),
                     
                     
                     s("div", {
