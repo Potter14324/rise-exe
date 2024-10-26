@@ -39,11 +39,6 @@ style.appendChild(document.createTextNode(`
         box-shadow: 0 0 6px 2px #303030;
         box-sizing: border-box;
         border: 1px solid transparent;
-        -webkit-user-drag: none;
-        user-select: none;
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
         transition: .2s;
     }
 `));
