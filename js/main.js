@@ -30,14 +30,23 @@ style.type = 'text/css';
 // Add the CSS rule
 style.appendChild(document.createTextNode(`
     .skin[data-v-1c614894] {
-        box-shadow: 0 0 6px 2px #303030;
-        transition: .2s;
-        
+        cursor: pointer;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 0 0 6px 2px #000;
+        box-sizing: border-box;
+        border: 1px solid transparent;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
     }
 `));
 
 // Append the style element to the head of the document
 document.head.appendChild(style);
+
 
 
 
