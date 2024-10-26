@@ -1,8 +1,9 @@
 .fade-box{
   border-radius:15px;
 }
-#nickname {
-  color:red;
+
+.play-button {
+  border-radius:15px;
 }
 
 
