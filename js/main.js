@@ -15,7 +15,7 @@ style.type = 'text/css';
 style.appendChild(document.createTextNode(`
     .selected[data-v-1c614894] {
         box-shadow: 0 0 6px 2px #ddd;
-        transition: .2s;
+
     }
 `));
 
