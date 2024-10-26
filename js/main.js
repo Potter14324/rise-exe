@@ -30,6 +30,32 @@ document.head.appendChild(style);
 
 
 
+// Create a new style element
+const style = document.createElement('style');
+style.type = 'text/css';
+
+// Add the CSS rule
+style.appendChild(document.createTextNode(`
+    #leaderboard[data-v-8a0c31c6] {
+        padding: 13px;
+        min-height: 272px;
+        position: fixed;
+        top: 5px;
+        right: 5px;
+        transform-origin: top right;
+        width: 250px;
+        background-color: rgba(30, 30, 30, 0.6);
+        border: 1px solid rgba(60, 60, 60, .4);
+        box-shadow: 0 0 10px #080808;
+        border-radius: 4px;
+        display: inline-block;
+        min-height: 30px;
+               
+    }
+`));
+
+// Append the style element to the head of the document
+document.head.appendChild(style);
 
 
 
