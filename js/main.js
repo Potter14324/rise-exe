@@ -35,7 +35,7 @@ style.type = 'text/css';
 // Add the CSS rule
 style.appendChild(document.createTextNode(`
     #leaderboard[data-v-8a0c31c6] {
-         right: 13px;
+         right: 6px;
     top: 6px;
     text-align: center;
     width: 220px;
