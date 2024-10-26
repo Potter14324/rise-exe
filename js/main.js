@@ -36,7 +36,7 @@ style.type = 'text/css';
 
 // Add the CSS rule
 style.appendChild(document.createTextNode(`
-    #leaderboard[data-v-8a0c31c6] {
+    .leaderboard[data-v-8a0c31c6] {
         padding: 13px;
         min-height: 272px;
         position: fixed;
