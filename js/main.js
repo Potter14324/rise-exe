@@ -23,6 +23,21 @@ document.head.appendChild(style);
 
 
 
+// Create a new style element
+const style = document.createElement('style');
+style.type = 'text/css';
+
+// Add the CSS rule
+style.appendChild(document.createTextNode(`
+    .skin[data-v-1c614894] {
+        box-shadow: 0 0 6px 2px #303030;
+        transition: .2s;
+        
+    }
+`));
+
+// Append the style element to the head of the document
+document.head.appendChild(style);
 
 
 
