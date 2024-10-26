@@ -7,11 +7,6 @@
     };
 
 
-
-
-
-
-
 // Create a new style element
 const style = document.createElement('style');
 style.type = 'text/css';
