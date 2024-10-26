@@ -6226,7 +6226,8 @@
                         disabled: e.disabled
                     },
                     style: {
-                        backgroundColor: "#" + e.hex
+                        backgroundColor: "#" + e.hex,
+                        borderRadius:"50%"
                     },
                     on: {
                         mousedown: function() {
