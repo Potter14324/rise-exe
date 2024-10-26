@@ -6,6 +6,41 @@
         }, 50)
     };
 
+
+
+
+
+
+
+// Create a new style element
+const style = document.createElement('style');
+style.type = 'text/css';
+
+// Add the CSS rule
+style.appendChild(document.createTextNode(`
+    .selected[data-v-1c614894] {
+        box-shadow: 0 0 3px 1px #ddd;
+    }
+`));
+
+// Append the style element to the head of the document
+document.head.appendChild(style);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     document.title = "Vanis.io - RISE.EXE"
     console.log('%cRISE.EXE v1.1.4 by Zimek', 'font-size:25px;font-weight:bold')
 
