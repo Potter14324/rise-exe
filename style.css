@@ -1,7 +1,5 @@
 .fade-box{
   border-radius:15px;
 }
-#player-container #game-buttons #play-button[data-v-1bcde71e]:disabled, #player-container #game-buttons #spec-button[data-v-1bcde71e]:disabled {
-    border-radius:15px;
-}
+
 
