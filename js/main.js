@@ -19,7 +19,7 @@ style.type = 'text/css';
 // Add the CSS rule
 style.appendChild(document.createTextNode(`
     .selected[data-v-1c614894] {
-        box-shadow: 0 0 3px 1px #FF0000;
+        box-shadow: 0 0 6px 2px #ddd;
     }
 `));
 
