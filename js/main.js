@@ -33,12 +33,7 @@ style.type = 'text/css';
 // Add the CSS rule
 style.appendChild(document.createTextNode(`
     .skin[data-v-1c614894] {
-        cursor: pointer;
-        width: 100%;
-        border-radius: 50%;
         box-shadow: 0 0 6px 2px #303030;
-        box-sizing: border-box;
-        border: 1px solid transparent;
         transition: .2s;
     }
 `));
