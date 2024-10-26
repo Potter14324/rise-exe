@@ -28,28 +28,6 @@ document.head.appendChild(style);
 
 
 
-// Create a new style element
-const style = document.createElement('style');
-style.type = 'text/css';
-
-// Add the CSS rule
-style.appendChild(document.createTextNode(`
-    #leaderboard[data-v-8a0c31c6] {
-         right: 6px;
-    top: 6px;
-    text-align: center;
-    width: 220px;
-    height: 272px;
-    padding: 13px;
-    pointer-events: none;
-     background-color: rgba(30, 30, 30, 0.6);
-        border: 1px solid rgba(60, 60, 60, .4);
-    }
-`));
-
-// Append the style element to the head of the document
-document.head.appendChild(style);
-
 
 
 
