@@ -36,6 +36,34 @@ document.head.appendChild(style);
 
 
 
+// Create a style element
+const style = document.createElement("style");
+style.type = "text/css";
+
+// Define the CSS rules as a string
+style.innerHTML = `
+  #chatbox[data-v-4900a413] {
+   
+    border-radius: 10px;
+  }
+`;
+
+// Append the style element to the document head
+document.head.appendChild(style);
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
 
 
     
