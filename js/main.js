@@ -36,28 +36,6 @@ document.head.appendChild(style);
 
 
 
-// Create a style element
-const style = document.createElement("style");
-style.type = "text/css";
-
-// Define the CSS rules as a string
-style.innerHTML = `
-  #chatbox[data-v-4900a413] {
-    display: flex;
-    flex-direction: column;
-    width: 380px;
-    height: 230px;
-    padding: 7px;
-    background: rgba(5, 5, 5, 0.9);
-    font-size: 14px;
-    border-radius: 10px;
-    color: white; /* Optional: Makes text inside the chatbox more visible */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Optional: Adds a shadow */
-  }
-`;
-
-// Append the style element to the document head
-document.head.appendChild(style);
 
 
 
