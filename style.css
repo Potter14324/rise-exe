@@ -3,6 +3,47 @@
   background: linear-gradient(to bottom, #d23838, #202020);
 }
 
+/* Styles for container */
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Styles for section row */
+.section.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+/* Styles for header */
+.header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Styles for options and two-columns */
+.options.two-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Styles for color-input */
+.color-input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+/* Optional styling for the color picker (color-option) */
+.color-input .right {
+    margin-top: 5px;
+}
+
 
 
 
