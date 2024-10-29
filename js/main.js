@@ -5806,8 +5806,43 @@ document.head.appendChild(style);
                     }, [s("div", {
                         staticClass: "header"
                     }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options two-columns"
-                    }, [s("span", [s("div", {
+                        staticClass: "options two-columns" },
+                        
+                    
+                    
+
+
+
+
+
+
+ // New button added here without CSS
+                s("button", {
+                    attrs: {
+                        id: "new-button"
+                    },
+                    on: {
+                        click: function() {
+                            console.log("New button clicked!");
+                        }
+                    }
+                }, [e._v("New Button")])
+            ])
+        ])
+    ])
+]);
+
+
+
+
+
+
+
+                                                                                  
+                    
+                    
+                    
+                     [s("span", [s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
                         staticClass: "right",
