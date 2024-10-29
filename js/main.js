@@ -5808,7 +5808,21 @@ document.head.appendChild(style);
                     }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
                         staticClass: "options two-columns" 
                     
-                   
+                    // New button added here without CSS
+                s("button", {
+                    attrs: {
+                        id: "new-button"
+                    },
+                    on: {
+                        click: function() {
+                            console.log("New button clicked!");
+                        }
+                    }
+                }, [e._v("New Button")])
+            ])
+        ])
+    ])
+]);
                     },
                         
                 
