@@ -5808,24 +5808,21 @@ document.head.appendChild(style);
                     }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
                         staticClass: "options two-columns" 
                     
-                    // Create a new style element
-const style = document.createElement('style');
-style.type = 'text/css';
-
-// Add the CSS rule
-style.appendChild(document.createTextNode(`
-    .selected[data-v-1c614894] {
-        box-shadow: 0 0 6px 2px #ddd;
-        transition: .2s;
-
-    }
-`));
-
-// Append the style element to the head of the document
-document.head.appendChild(style);
-                    
-                    
-                    
+                     // New button added here without CSS
+                s("button", {
+                    attrs: {
+                        id: "new-button"
+                    },
+                    on: {
+                        click: function() {
+                            console.log("New button clicked!");
+                        }
+                    }
+                }, [e._v("New Button")])
+            ])
+        ])
+    ])
+]);
                     },
                         
                 
