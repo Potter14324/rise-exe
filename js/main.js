@@ -16,6 +16,50 @@
 
 
 
+return s("div", {
+    staticClass: "container"
+}, [
+    s("div", { staticClass: "section row" }, [
+        s("div", { staticClass: "header" }, [
+            e._v("\n        Colors and images\n    ")
+        ]),
+        e._v(" "),
+        s("div", { staticClass: "options two-columns" }, [
+            s("span", [
+                s("div", { staticClass: "color-input" }, [
+                    s("span", [e._v("Background")]),
+                    e._v(" "),
+                    s("color-option", { staticClass: "right", attrs: {} })
+                ])
+            ]),
+            // Adding the new button element here
+            s("button", {
+                staticClass: "custom-button",
+                on: {
+                    click: function() {
+                        // Add functionality here for button click
+                        console.log("New button clicked!");
+                    }
+                }
+            }, [e._v("New Button")])
+        ])
+    ])
+]);
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
     
 // Create a new style element
 const style = document.createElement('style');
