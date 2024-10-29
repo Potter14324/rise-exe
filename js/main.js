@@ -11,18 +11,6 @@
 
 
 
-// Select the color picker input and fade-box elements
-const colorPicker = document.getElementById("colorPicker");
-const fadeBox = document.getElementById("fade-box");
-
-// Listen for color changes on the color picker
-colorPicker.addEventListener("input", (event) => {
-  // Set the background color of fade-box to the selected color
-  fadeBox.style.backgroundColor = event.target.value;
-});
-
-
-
 
 
 
