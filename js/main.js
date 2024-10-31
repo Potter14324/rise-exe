@@ -5813,34 +5813,6 @@ document.head.appendChild(style);
                 
 
 
-
-
-
-                        [s("span", [s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.backgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("backgroundColor", t)
-                            }
-                        }
-
-
-
-
-                                                                                  
-
-
-
-
-
-
-
-
                                                                                   
                     
                      [s("span", [s("div", {
