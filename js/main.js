@@ -5809,21 +5809,8 @@ document.head.appendChild(style);
                         staticClass: "options two-columns" 
          
                     },
-                        
-                
 
 
-
-
-
-
-
-
-
-
-                                                                                  
-                                                                                  
-                    
                      [s("span", [s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
