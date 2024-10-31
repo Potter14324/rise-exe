@@ -5816,18 +5816,6 @@ document.head.appendChild(style);
 
 
 
-  [s("span", [s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.backgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("backgroundColor", t)
-                            }
-                        }
 
 
 
