@@ -5905,11 +5905,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.BackgroundColor
+                            value: e.tabMenuBackground
                         },
                         on: {
                             input: function(t) {
-                                return e.change("BackgroundColor", t)
+                                return e.change("tabMenuBackground", t)
                             }
                         }
                     })],         
