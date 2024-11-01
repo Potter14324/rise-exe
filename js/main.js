@@ -5905,7 +5905,7 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fade.Box
+                            value: e.fadeBox
                         },
                         on: {
                             input: function(t) {
