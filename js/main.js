@@ -5905,18 +5905,19 @@ document.head.appendChild(style);
                         
 
                                           
-                                                         data() {
-                            return {
-                                fadeBoxBackground: '#151515' // Default color
-                            };
+                                                      1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.fadeBoxBackground
                         },
-                        methods: {
-                            change(property, value) {
-                                if (property === 'fadeBoxBackground') {
-                                    this.fadeBoxBackground = value;
-                                }
+                        on: {
+                            input: function(t) {
+                                return e.change("fadeBoxBackground", t)
                             }
                         }
+                    })], 
 
                                           
 
