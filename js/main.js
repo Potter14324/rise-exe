@@ -5907,7 +5907,7 @@ document.head.appendChild(style);
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("fadeBoxBackground", t);
                             }
                         }
                     })],
