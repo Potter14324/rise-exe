@@ -5910,11 +5910,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxBackground
+                            value: e.fadeBoxImage
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("fadeBoxImage", t)
                             }
                         }
                     })], 
