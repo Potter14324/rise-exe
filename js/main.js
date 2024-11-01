@@ -5903,13 +5903,6 @@ document.head.appendChild(style);
 
 
                         
-                                                    s("div", {
-                            staticClass: "fade-box",
-                            style: {
-                                background: `linear-gradient(to bottom, ${this.fadeBoxBackground}, #202020)`
-                            }
-                        })
-
 
                                           
                                                          data() {
