@@ -5877,7 +5877,7 @@ document.head.appendChild(style);
                         }
                     })], 1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("Nam outline")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
                             value: e.cellNameOutlineColor
