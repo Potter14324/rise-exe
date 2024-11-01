@@ -5906,11 +5906,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxBackgroundColor
+                            value: e.playerContainerBackground
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackgroundColor", t)
+                                return e.change("playerContainerBackground", t)
                             }
                         }
                     })],
