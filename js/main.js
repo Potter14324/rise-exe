@@ -5901,19 +5901,32 @@ document.head.appendChild(style);
 
 
         
-             1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.Background
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("Background", t)
-                            }
-                        }
-                    })],
+            
+                    // Assuming this is part of your color-option component
+s("div", {
+    staticClass: "color-input"
+}, [
+    s("span", [e._v("UI Themes")]), 
+    e._v(" "), 
+    s("color-option", {
+        staticClass: "right",
+        attrs: {
+            value: e.fadeBoxBackground
+        },
+        on: {
+            input: function(t) {
+                // Set the new background gradient color dynamically
+                const fadeBoxElement = document.querySelector('.fade-box');
+                if (fadeBoxElement) {
+                    fadeBoxElement.style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                }
+
+                // Optional: update a property for future reference if needed
+                e.fadeBoxBackground = t;
+            }
+        }
+    })
+])
                                           
           
 
