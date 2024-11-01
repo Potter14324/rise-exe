@@ -5900,35 +5900,35 @@ document.head.appendChild(style);
 
 
 
-s("div", {
-    staticClass: "color-input"
-}, [
-    s("span", [e._v("UI Themes")]), 
-    e._v(" "), 
-    s("color-option", {
-        staticClass: "right",
-        attrs: {
-            value: e.fadeBoxBackgroundColor
-        },
-        on: {
-            input: function(t) {
-                // Update fadeBoxBackgroundColor property
-                e.fadeBoxBackgroundColor = t;
-
-                // Apply the background color directly to the fade-box element
-                const fadeBoxElement = document.querySelector('.fade-box');
-                if (fadeBoxElement) {
-                    fadeBoxElement.style.backgroundColor = t;
+        s("div", {
+            staticClass: "color-input"
+        }, [
+            s("span", [e._v("UI Themes")]), 
+            e._v(" "), 
+            s("color-option", {
+                staticClass: "right",
+                attrs: {
+                    value: e.fadeBoxBackground
+                },
+                on: {
+                    input: function(t) {
+                        // Update fadeBoxBackgroundColor property
+                        e.fadeBoxBackground = t;
+        
+                        // Apply the background color directly to the fade-box element
+                        const fadeBoxElement = document.querySelector('.fade-box');
+                        if (fadeBoxElement) {
+                            fadeBoxElement.style.background = t;
+                        }
+                        
+                        // Optionally call e.change to handle other actions if necessary
+                        if (typeof e.change === 'function') {
+                            e.change("fadeBoxBackground", t);
+                        }
+                    }
                 }
-                
-                // Optionally call e.change to handle other actions if necessary
-                if (typeof e.change === 'function') {
-                    e.change("fadeBoxBackgroundColor", t);
-                }
-            }
-        }
-    })
-])
+            })
+        ])
 
                                           
           
