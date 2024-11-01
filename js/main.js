@@ -5907,11 +5907,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fade.BoxBackgroundColor
+                            value: e.fadeBoxColor
                         },
                         on: {
                             input: function(t) {
-                                e.change("fade.BoxBackgroundColor", t)
+                                e.change("fadeBoxColor", t)
                               
                             }
                         }
