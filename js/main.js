@@ -5890,38 +5890,36 @@ document.head.appendChild(style);
                     })],
                                           
                                           
+                
                                           
                                           
-                              1), e._v(" "), s("div", {
+                                          
+                                          
+                                          
+                               1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.cellNameOutlineColor
+                            value: e.fadeBoxBackgroundColor
                         },
                         on: {
                             input: function(t) {
-                                return e.change("cellNameOutlineColor", t)
+                                return e.change("fadeBoxBackgroundColor", t)
                             }
                         }
-                    })],             
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
-                                          
+                    })],            
+
+
+
+
+
+
+
+
+
+
+
                                           
                                           
                                           1)]), e._v(" "), s("span", [s("div", {
