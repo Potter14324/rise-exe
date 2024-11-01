@@ -5887,7 +5887,21 @@ document.head.appendChild(style);
                                 return e.change("cellNameOutlineColor", t)
                             }
                         }
+                    })], 1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-options", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.fadeBoxBackground
+                        },
+                        on: {
+                            input: function(t) {
+                               fadeBox.style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                              
+                            }
+                        }
                     })],
+        
                                           
                                           
                 
@@ -5902,21 +5916,7 @@ document.head.appendChild(style);
 
                        
 
-                       1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-picker", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.fadeBoxBackground
-                        },
-                        on: {
-                            input: function(t) {
-                               fadeBox.style.background = `linear-gradient(to bottom, ${t}, #202020)`;
-                              
-                            }
-                        }
-                    })],
-        
+                      
    
 
                                           
