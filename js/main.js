@@ -5901,19 +5901,30 @@ document.head.appendChild(style);
 
 
         
-      1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.playerContainerBackgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("playerContainerBackgroundColor", t)
-                            }
-                        }
-                    })],
+      s("div", {
+    staticClass: "color-input"
+}, [
+    s("span", [e._v("UI Themes")]), 
+    e._v(" "), 
+    s("color-option", {
+        staticClass: "right",
+        attrs: {
+            value: e.fadeBoxBackground
+        },
+        on: {
+            input: function(t) {
+                e.fadeBoxBackground = t;
+                
+                // Apply background to the `.fade-box` element directly
+                const fadeBoxElement = document.querySelector('.fade-box');
+                if (fadeBoxElement) {
+                    fadeBoxElement.style.background = t;
+                }
+            }
+        }
+    })
+])
+
                                           
           
 
