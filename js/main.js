@@ -5911,18 +5911,18 @@ s("div", {
     s("color-option", {
         staticClass: "right",
         attrs: {
-            value: e.fadeBoxBackground
+            value: e.fadeBoxBackgroundColor
         },
         on: {
             input: function(t) {
                 // Set the new background gradient color dynamically
                 const fadeBoxElement = document.querySelector('.fade-box');
                 if (fadeBoxElement) {
-                    fadeBoxElement.style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                    fadeBoxElement.style.backgroundColor = `linear-gradient(to bottom, ${t}, #202020)`;
                 }
 
                 // Optional: update a property for future reference if needed
-                e.fadeBoxBackground = t;
+                e.fadeBoxBackgroundColor = t;
             }
         }
     })
