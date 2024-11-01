@@ -5896,7 +5896,8 @@ document.head.appendChild(style);
                         },
                         on: {
                             input: function(t) {
-                               fadeBox.style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                          return e.change("fadeBoxBackground", t)
+
                               
                             }
                         }
