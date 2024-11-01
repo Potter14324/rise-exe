@@ -5912,7 +5912,7 @@ document.head.appendChild(style);
                         on: {
                             input: function(t) {
                                 e.change("fadeBoxBackgroundColor", t)
-                               document.querySelector('.fade-box').style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                              
                             }
                         }
                     })],
