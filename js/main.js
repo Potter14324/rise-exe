@@ -5905,11 +5905,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxColor
+                            value: e.fadeBoxBackgroundColor
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxColor", t)
+                                return e.change("fadeBoxBackgroundColor", t)
                             }
                         }
                     })],         
@@ -6713,7 +6713,7 @@ document.head.appendChild(style);
                         foodColor: H.foodColor,
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
-                        fadeBoxBackground:  H.fadeBoxBackground,
+                        fadeBoxBackgroundColor:  H.fadeBoxBackgroundColor,
                         cursorImageUrl: H.cursorImageUrl,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
