@@ -5896,19 +5896,51 @@ document.head.appendChild(style);
                                           
                                           
                                           
-                               1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.fadeBoxBackgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("fadeBoxBackgroundColor", t)
-                            }
-                        }
-                    })],            
+
+
+
+
+s("div", {
+    staticClass: "color-input"
+}, [
+    s("span", [e._v("Background Color")]), 
+    e._v(" "), 
+    s("color-option", {
+        staticClass: "right",
+        attrs: {
+            value: e.fadeBoxBackgroundColor // Set the initial color value
+        },
+        on: {
+            input: function(t) {
+                // Update fadeBoxBackgroundColor with the selected color
+                e.fadeBoxBackgroundColor = t;
+                // Apply the selected color to the #fade-box element
+                const fadeBox = document.getElementById('fade-box');
+                if (fadeBox) {
+                    fadeBox.style.backgroundColor = t;
+                } else {
+                    console.log("Fade-box element not found.");
+                }
+            }
+        }
+    })
+])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          
 
 
 
