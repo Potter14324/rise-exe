@@ -6725,7 +6725,6 @@ document.head.appendChild(style);
                         foodColor: H.foodColor,
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
-                        fadeBoxBackground:  H.fadeBoxBackground,
                         cursorImageUrl: H.cursorImageUrl,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
