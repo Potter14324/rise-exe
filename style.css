@@ -1,5 +1,8 @@
 .fade-box {
-  border-radius:15px;
+    background: linear-gradient(to bottom, #151515, #202020);
+    border: 4px solid #1a1a1a;
+    box-shadow: 0 0 3px 2px #303030;
+    border-radius: 15px;
  
 }
 
