@@ -5880,14 +5880,15 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxBackground
+                            value: e.cellNameOutlineColor
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("cellNameOutlineColor", t)
                             }
                         }
                     })], 
+                                          
                                           
                                           
                                           
@@ -5899,7 +5900,19 @@ document.head.appendChild(style);
                                           
                                           
                                           
-                                          
+                                  1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.fadeBoxBackground
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("fadeBoxBackground", t)
+                            }
+                        }
+                    })],         
                                           
 
 
@@ -6700,6 +6713,7 @@ document.head.appendChild(style);
                         foodColor: H.foodColor,
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
+                        fadeBoxBackground:  H.fadeBoxBackground,
                         cursorImageUrl: H.cursorImageUrl,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
