@@ -5910,7 +5910,7 @@ document.head.appendChild(style);
                         on: {
                             input: function(t) {
                                 
-                                e.fadeBoxBackgroundColor = t;  // Update the color in data
+                               return e.change("fadeBoxBackgroundColor", t)
                             }
                         }
                     })],  
