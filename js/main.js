@@ -5887,7 +5887,12 @@ document.head.appendChild(style);
                                 return e.change("cellNameOutlineColor", t)
                             }
                         }
-                    })], 1), e._v(" "), s("div", {
+                    })], 
+                                          
+                                          
+                                          
+                                          
+                        1), e._v(" "), s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
