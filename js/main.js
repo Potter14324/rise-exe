@@ -5899,20 +5899,32 @@ document.head.appendChild(style);
                 
                                           
                                           
+
+
+
+                        
+                                                    s("div", {
+                            staticClass: "fade-box",
+                            style: {
+                                background: `linear-gradient(to bottom, ${this.fadeBoxBackground}, #202020)`
+                            }
+                        })
+
+
                                           
-                                  1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.fadeBoxBackground
+                                                         data() {
+                            return {
+                                fadeBoxBackground: '#151515' // Default color
+                            };
                         },
-                        on: {
-                            input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                        methods: {
+                            change(property, value) {
+                                if (property === 'fadeBoxBackground') {
+                                    this.fadeBoxBackground = value;
+                                }
                             }
                         }
-                    })],         
+
                                           
 
 
