@@ -5904,14 +5904,14 @@ document.head.appendChild(style);
 
                        1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-picker", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBox
+                            value: e.fadeBoxBackground
                         },
                         on: {
                             input: function(t) {
-                                e.change("fadeBox", t)
+                                e.change("fadeBoxBackground", t)
                               
                             }
                         }
