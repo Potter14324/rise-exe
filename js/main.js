@@ -5901,29 +5901,21 @@ document.head.appendChild(style);
 
 
         
-      s("div", {
-    staticClass: "color-input"
-}, [
-    s("span", [e._v("UI Themes")]), 
-    e._v(" "), 
-    s("color-option", {
-        staticClass: "right",
-        attrs: {
-            value: e.fadeBoxBackground
-        },
-        on: {
-            input: function(t) {
-                e.fadeBoxBackground = t;
-                
-                // Apply background to the `.fade-box` element directly
-                const fadeBoxElement = document.querySelector('.fade-box');
-                if (fadeBoxElement) {
-                    fadeBoxElement.style.background = t;
-                }
-            }
-        }
-    })
-])
+      // Function to change `.fade-box` background when a color is picked
+function updateFadeBoxBackground(newColor) {
+    const fadeBox = document.querySelector('.fade-box');
+    if (fadeBox) {
+        fadeBox.style.background = `linear-gradient(to bottom, ${newColor}, #202020)`;
+    }
+}
+
+// Example code to attach to a color picker event
+document.querySelector('.color-input').addEventListener('input', function(event) {
+    // `event.target.value` should be the color selected in the picker
+    const selectedColor = event.target.value;
+    updateFadeBoxBackground(selectedColor);
+});
+
 
                                           
           
