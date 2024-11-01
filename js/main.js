@@ -5907,14 +5907,14 @@ document.head.appendChild(style);
                                           
                                                       1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxImage
+                            value: e.fadeBoxBackground
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxImage", t)
+                                return e.change("fadeBoxBackground", t)
                             }
                         }
                     })], 
