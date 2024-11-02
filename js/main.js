@@ -5909,14 +5909,14 @@ document.head.appendChild(style);
                        
                        1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
                             value: e.fadeBoxBackground
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("fadeBoxBackground", t);
                                  document.querySelector('.fade-box').style.background = `linear-gradient(to bottom, ${t}, #202020)`;
                             }
                         }
