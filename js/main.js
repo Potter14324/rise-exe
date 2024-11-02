@@ -5907,23 +5907,21 @@ document.head.appendChild(style);
 
                                           
                        
-                                         s("div", {
-                        staticClass: "color-input"
-                    }, [
-                        s("span", [e._v("UI Themes")]), 
-                        e._v(" "), 
-                        s("color-option", {
-                            staticClass: "right",
-                            attrs: {
-                                value: e.fadeBoxBackground
-                            },
-                            on: {
-                                input: function(t) {
-                                    return e.change("fadeBoxBackground", t);
-                                }
-                            }
-                        })
-                    ])
+                                        
+                    methods: {
+    change(property, value) {
+        if (property === 'fadeBoxBackground') {
+            this.fadeBoxBackground = value;
+
+            // Update DOM directly (optional)
+            const fadeBox = document.querySelector('.fade-box');
+            if (fadeBox) {
+                fadeBox.style.background = `linear-gradient(to bottom, ${value}, #202020)`;
+            }
+        }
+    }
+}
+
 
                       
    
