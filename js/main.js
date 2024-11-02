@@ -5905,7 +5905,7 @@ document.head.appendChild(style);
                         
 
                                           
-                                                      1), e._v(" "), s("div", {
+                        1), e._v(" "), s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("UI Themes")]), e._v(" "), s("color-option", {
                         staticClass: "right",
@@ -5919,12 +5919,28 @@ document.head.appendChild(style);
                         }
                     })], 
 
-                                          
+
+
+
+
+                 
 
 
                       
 
-                       
+                                           data() {
+                        return {
+                            fadeBoxBackground: '#151515' // Default color
+                        };
+                    },
+                    methods: {
+                        change(property, value) {
+                            if (property === 'fadeBoxBackground') {
+                                this.fadeBoxBackground = value;
+                            }
+                        }
+                    }
+
 
                       
    
