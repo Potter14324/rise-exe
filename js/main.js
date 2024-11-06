@@ -1168,6 +1168,7 @@ document.head.appendChild(style);
                 backgroundColor: "101010",
                 borderColor: "000000",
                 foodColor: "ffffff",
+                fadeBoxBackground: "000000",
                 ejectedColor: "ffa500",
                 cellNameOutlineColor: "000000",
                 cursorImageUrl: null,
@@ -5904,7 +5905,7 @@ document.head.appendChild(style);
 
                 1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-picker", {
+                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
                             value: e.fadeBoxBackground
