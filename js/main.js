@@ -1169,6 +1169,7 @@ document.head.appendChild(style);
                 borderColor: "000000",
                 foodColor: "ffffff",
                 fadeBoxBackground: "000000",
+                skinsContainerBackground:"000000",
                 ejectedColor: "ffa500",
                 cellNameOutlineColor: "000000",
                 cursorImageUrl: null,
