@@ -5897,6 +5897,12 @@ document.head.appendChild(style);
 
 
 
+            s("div", {
+                attrs: { id: "fade-box" },
+                style: {
+                    background: `linear-gradient(to bottom, ${e.fadeBoxBackground || "#151515"}, #202020)`
+                }
+            })
 
                                
 
