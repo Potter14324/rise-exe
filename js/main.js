@@ -5897,16 +5897,9 @@ document.head.appendChild(style);
 
 
 
-
-
-
-
-                             
-
-
-                       1), e._v(" "), s("div", {
+                        [s("span", [s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
                             value: e.fadeBoxBackground
@@ -5916,7 +5909,13 @@ document.head.appendChild(style);
                                 return e.change("fadeBoxBackground", t)
                             }
                         }
-                    })],
+
+
+
+                             
+
+
+                     
 
 
                     
