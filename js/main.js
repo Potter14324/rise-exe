@@ -5892,53 +5892,6 @@ document.head.appendChild(style);
 
 
 
-
-
-
-
-
-
-                                   // Ensure that the script waits for the DOM to be fully loaded
-            window.addEventListener('load', function() {
-                // Create a color input button for testing
-                const colorInput = document.createElement('input');
-                colorInput.type = 'color';
-                colorInput.id = 'fadeBoxColorInput';
-                colorInput.value = '#151515'; // Default color
-            
-                // Style and append the color input to an existing container
-                const container = document.querySelector('.options.two-columns');
-                if (container) {
-                    container.appendChild(colorInput);
-                }
-            
-                // Add a listener to change the background color of the fade-box on input change
-                colorInput.addEventListener('input', function(event) {
-                    const fadeBox = document.getElementById('fade-box');
-                    if (fadeBox) {
-                        fadeBox.style.background = `linear-gradient(to bottom, ${event.target.value}, #202020)`;
-                    }
-                });
-            });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                           
   
                                           1)]), e._v(" "), s("span", [s("div", {
