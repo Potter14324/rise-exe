@@ -5887,19 +5887,49 @@ document.head.appendChild(style);
                                 return e.change("cellNameOutlineColor", t)
                             }
                         }
-                    })],    1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.fadeBoxBackgroundColor
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("fadeBoxBackgroundColor", t)
-                            }
-                        }
-                    })],
+                    })],    
+
+
+
+
+
+
+
+
+
+
+                        1), e._v(" "), s("div", {
+            staticClass: "color-input"
+        }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
+            staticClass: "right",
+            attrs: {
+                value: e.fadeBoxBackground
+            },
+            on: {
+                input: function(t) {
+                    document.querySelector('.fade-box').style.background = `linear-gradient(to bottom, ${t}, #202020)`;
+                }
+            }
+        })],
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          
   
                                           1)]), e._v(" "), s("span", [s("div", {
                         staticClass: "color-input"
