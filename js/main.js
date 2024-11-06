@@ -5889,7 +5889,42 @@ document.head.appendChild(style);
                         }
                     })], 
                                           
-          
+
+
+
+
+
+
+
+
+
+                        1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.SkinsContainer
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("SkinsContainer", t)
+                            }
+                        }
+                    })], 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                          
                                           
                                           1)]), e._v(" "), s("span", [s("div", {
                         staticClass: "color-input"
