@@ -5898,19 +5898,7 @@ document.head.appendChild(style);
 
 
 
-                               methods: {
-            change(property, value) {
-                if (property === 'fadeBoxBackground') {
-                    this.fadeBoxBackground = value;
-        
-                    // Direct DOM change (not reactive, as a fallback)
-                    const fadeBox = document.getElementById('fade-box');
-                    if (fadeBox) {
-                        fadeBox.style.background = `linear-gradient(to bottom, ${value}, #202020)`;
-                    }
-                }
-            }
-        }
+                               
 
 
 
