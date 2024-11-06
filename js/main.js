@@ -5898,19 +5898,20 @@ document.head.appendChild(style);
 
 
 
-                        1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.skinsContainer
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("skinsContainer", t)
-                            }
-                        }
-                    })], 
+                               methods: {
+            change(property, value) {
+                if (property === 'fadeBoxBackground') {
+                    this.fadeBoxBackground = value;
+        
+                    // Direct DOM change (not reactive, as a fallback)
+                    const fadeBox = document.getElementById('fade-box');
+                    if (fadeBox) {
+                        fadeBox.style.background = `linear-gradient(to bottom, ${value}, #202020)`;
+                    }
+                }
+            }
+        }
+
 
 
 
