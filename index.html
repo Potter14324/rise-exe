@@ -24,40 +24,7 @@
 
 
 
-    <div>
-        <div :style="{ backgroundColor: fadeBoxBackground }" class="color-box">
-            This box changes color!
-        </div>
-        <color-option
-            :value="fadeBoxBackground"
-            @input="change('fadeBoxBackground', $event)"
-        ></color-option>
-    </div>
-
-
-<script>
-export default {
-    data() {
-        return {
-            fadeBoxBackground: '#FFFFFF' // Initial color
-        };
-    },
-    methods: {
-        change(property, value) {
-            this[property] = value; // Update the color
-            console.log(`Updated ${property} to:`, this[property]); // Log the new value
-        }
-    }
-};
-</script>
-
-<style>
-.color-box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #000;
-}
-</style>
+    
 
 
 
