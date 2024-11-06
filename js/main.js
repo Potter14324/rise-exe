@@ -5918,7 +5918,7 @@ document.head.appendChild(style);
                     },
                     on: {
                         input: function(t) {
-                            e.change("fadeBoxBackground", t)
+                            e.change("fadeBoxBackground", t);
                         }
                     }
                 })]);
