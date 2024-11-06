@@ -5908,11 +5908,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxBackground
+                            value: e.tabMenuBackground
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("tabMenuBackground", t)
                             }
                         }
                     })],
