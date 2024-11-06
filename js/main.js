@@ -5903,11 +5903,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.SkinsContainer
+                            value: e.skinsContainer
                         },
                         on: {
                             input: function(t) {
-                                return e.change("SkinsContainer", t)
+                                return e.change("skinsContainer", t)
                             }
                         }
                     })], 
