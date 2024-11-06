@@ -5897,15 +5897,23 @@ document.head.appendChild(style);
 
 
 
-            s("div", {
-                attrs: { id: "fade-box" },
-                style: {
-                    background: `linear-gradient(to bottom, ${e.fadeBoxBackground || "#151515"}, #202020)`
-                }
-            })
+            
 
                                
-
+                1), e._v(" "), s("div", {
+                        staticClass: "color-input"
+                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                        staticClass: "right",
+                        attrs: {
+                            value: e.fadeBoxBackgroundColor
+                        },
+                        on: {
+                            input: function(t) {
+                                return e.change("fadeBoxBackgroundColor", t)
+                            }
+                        }
+                    })], 
+                                         
 
 
 
