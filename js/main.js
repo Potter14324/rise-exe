@@ -5887,22 +5887,9 @@ document.head.appendChild(style);
                                 return e.change("cellNameOutlineColor", t)
                             }
                         }
-                    })], 
-                                          
-
-
-
-
-
-
-
-
-            
-
-                               
-                1), e._v(" "), s("div", {
+                    })],    1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
+                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
                             value: e.fadeBoxBackgroundColor
@@ -5912,23 +5899,8 @@ document.head.appendChild(style);
                                 return e.change("fadeBoxBackgroundColor", t)
                             }
                         }
-                    })], 
-                                         
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          
-                                          
+                    })],
+  
                                           1)]), e._v(" "), s("span", [s("div", {
                         staticClass: "color-input"
                     }, [s("span", [e._v("Cursor")]), e._v(" "), s("image-option", {
