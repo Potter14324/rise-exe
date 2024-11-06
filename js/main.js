@@ -5911,14 +5911,14 @@ document.head.appendChild(style);
 
                 s("div", {
                     staticClass: "color-input"
-                }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
+                }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                     staticClass: "right",
                     attrs: {
                         value: e.fadeBoxBackground
                     },
                     on: {
                         input: function(t) {
-                            e.change("fadeBoxBackground", t);
+                            e.change("fadeBoxBackground", t)
                         }
                     }
                 })]);
