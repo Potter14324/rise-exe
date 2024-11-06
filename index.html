@@ -23,31 +23,16 @@
 
 
 
-<template>
-    <div :style="{ backgroundColor: fadeBoxBackground }" class="color-box">
-        This box changes color!
-    </div>
-    <color-option
-        :value="fadeBoxBackground"
-        @input="change('fadeBoxBackground', $event)"
-    ></color-option>
-</template>
+<div :class="{'red-background': fadeBoxBackground === 'red', 'blue-background': fadeBoxBackground === 'blue'}"></div>
 
-<script>
-export default {
-    data() {
-        return {
-            fadeBoxBackground: '#FFFFFF' // Initial color
-        };
-    },
-    methods: {
-        change(property, value) {
-            this[property] = value; // Update the color
-        }
-    }
-};
-</script>
-
+<style>
+.red-background {
+    background-color: red;
+}
+.blue-background {
+    background-color: blue;
+}
+</style>
 
 
 
