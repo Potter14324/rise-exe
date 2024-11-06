@@ -19,8 +19,47 @@
 
 
 
+
+
+
+
+<template>
+    <div :style="{ backgroundColor: fadeBoxBackground }" class="color-box">
+        This box changes color!
+    </div>
+    <color-option
+        :value="fadeBoxBackground"
+        @input="change('fadeBoxBackground', $event)"
+    ></color-option>
+</template>
+
+<script>
+export default {
+    data() {
+        return {
+            fadeBoxBackground: '#FFFFFF' // Initial color
+        };
+    },
+    methods: {
+        change(property, value) {
+            this[property] = value; // Update the color
+        }
+    }
+};
+</script>
+
+
+
+
+
+
+
+
+
+
+    
    
-    <div :style="{ backgroundColor: fadeBoxBackground }"></div>
+    
     <div id="app">
         <ab-overlay></ab-overlay>
         <context-menu></context-menu>
