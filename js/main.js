@@ -5899,14 +5899,7 @@ document.head.appendChild(style);
 
 
 
-                                    data() {
-                    return {
-                        fadeBoxBackground: '#151515' // Default color
-                    };
-                }
-
-
-
+                             
 
 
                 1), e._v(" "), s("div", {
