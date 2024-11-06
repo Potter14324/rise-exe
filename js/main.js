@@ -5904,7 +5904,7 @@ document.head.appendChild(style);
 
                 1), e._v(" "), s("div", {
                         staticClass: "color-input"
-                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-option fade-box", {
+                    }, [s("span", [e._v("UI")]), e._v(" "), s("color-picker", {
                         staticClass: "right",
                         attrs: {
                             value: e.fadeBoxBackground
