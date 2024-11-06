@@ -5897,18 +5897,12 @@ document.head.appendChild(style);
 
 
 
-                        [s("span", [s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                            value: e.fadeBoxBackground
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("fadeBoxBackground", t)
-                            }
-                        }
+                       
+                       [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options two-columns" 
+         
+                    },
+
 
 
 
