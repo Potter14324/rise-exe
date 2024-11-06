@@ -5898,11 +5898,7 @@ document.head.appendChild(style);
 
 
                        
-                       [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options two-columns" 
-         
-                    },
-
+                
 
 
 
