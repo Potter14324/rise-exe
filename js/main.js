@@ -6785,6 +6785,7 @@ document.head.appendChild(style);
                                     case "backgroundColor":
                                         G.renderer.backgroundColor = PIXI.utils.string2hex(i);
                                         break;
+                                    case "fadeBoxBackground":   
                                     case "cellNameOutlineColor":
                                     case "cellNameFont":
                                     case "cellNameWeight":
