@@ -5889,59 +5889,7 @@ document.head.appendChild(style);
                         }
                     })], 
                                           
-                                          
-                                          
-                                          
-                    
-        
-                                          
-                                          
-                
-                                          
-                                          
-
-
-        
-                                
-
-
-                                          
-                       
-                                        
-                   
-                      
-   
-
-                                          
           
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                          
-
-
-
-
-
-
-
-
-
-
-
-                                          
                                           
                                           1)]), e._v(" "), s("span", [s("div", {
                         staticClass: "color-input"
