@@ -6693,6 +6693,7 @@ document.head.appendChild(style);
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
                         cursorImageUrl: H.cursorImageUrl,
+                        fadeBoxBackground: H.fadeBoxBackground,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
                         cellMassColor: H.cellMassColor,
