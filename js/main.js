@@ -5908,11 +5908,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("UI")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.playerContainerBackground
+                            value: e.nicknameColor
                         },
                         on: {
                             input: function(t) {
-                                return e.change("playerContainerBackground", t)
+                                return e.change("nicknameColor", t)
                             }
                         }
                     })],
