@@ -5904,41 +5904,19 @@ document.head.appendChild(style);
 
 
 
-
-                                       window.addEventListener('load', function() {
-                    console.log('Page loaded');
-                    
-                    // Check if fade-box exists
-                    const fadeBox = document.getElementById('fade-box');
-                    if (!fadeBox) {
-                        console.log('Error: #fade-box not found');
-                        return;
+                s("div", {
+                    staticClass: "color-input"
+                }, [s("span", [e._v("Background")]), e._v(" "), s("color-option", {
+                    staticClass: "right",
+                    attrs: {
+                        value: e.fadeBoxBackground
+                    },
+                    on: {
+                        input: function(t) {
+                            e.change("fadeBoxBackground", t);
+                        }
                     }
-                
-                    // Create a color input
-                    const colorInput = document.createElement('input');
-                    colorInput.type = 'color';
-                    colorInput.id = 'fadeBoxColorInput';
-                    colorInput.value = '#151515'; // Default color
-                    console.log('Color input created');
-                
-                    // Append the color input to a container
-                    const container = document.querySelector('.options.two-columns');
-                    if (container) {
-                        container.appendChild(colorInput);
-                        console.log('Color input added to the container');
-                    } else {
-                        console.log('Error: .options.two-columns not found');
-                        return;
-                    }
-                
-                    // Update background color on color input change
-                    colorInput.addEventListener('input', function(event) {
-                        console.log(`Color selected: ${event.target.value}`);
-                        fadeBox.style.background = `linear-gradient(to bottom, ${event.target.value}, #202020)`;
-                        console.log(`Background color updated on #fade-box`);
-                    });
-                });
+                })]);
 
 
                     
