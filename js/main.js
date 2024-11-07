@@ -5895,7 +5895,7 @@ document.head.appendChild(style);
 
 
 
-
+                    
 
                        
                 
@@ -6008,7 +6008,36 @@ document.head.appendChild(style);
                                 return e.change("cellMassOutlineColor", t)
                             }
                         }
-                    })], 1)])])]), e._v(" "), s("div", {
+                    })],
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
+                        staticClass: "options two-columns" 
+         
+                    },          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          1)])])]), e._v(" "), s("div", {
                         staticClass: "section row"
                     }, [s("div", {
                         staticClass: "header"
