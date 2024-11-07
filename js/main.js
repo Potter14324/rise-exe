@@ -5902,11 +5902,11 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("Name outline")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                            value: e.fadeBoxBackground
+                            value: e.fadeBoxBackgroundImage
                         },
                         on: {
                             input: function(t) {
-                                return e.change("fadeBoxBackground", t)
+                                return e.change("fadeBoxBackgroundImage", t)
                             }
                         }
                     })],    
@@ -6709,7 +6709,7 @@ document.head.appendChild(style);
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
                         cursorImageUrl: H.cursorImageUrl,
-                        fadeBoxBackground: H.fadeBoxBackground,
+                        fadeBoxBackgroundImage: H.fadeBoxBackgroundImage,
                         skinsContainerBackground: H.skinsContainerBackground,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
@@ -6799,7 +6799,7 @@ document.head.appendChild(style);
                                     case "backgroundColor":
                                         G.renderer.backgroundColor = PIXI.utils.string2hex(i);
                                         break;
-                                    case "fadeBoxBackground":   
+                                    case "fadeBoxBackgroundImage":   
                                     case "cellNameOutlineColor":
                                     case "cellNameFont":
                                     case "cellNameWeight":
