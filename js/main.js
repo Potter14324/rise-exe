@@ -1170,7 +1170,6 @@ document.head.appendChild(style);
                 foodColor: "ffffff",
                 fadeBoxBackground: "000000",
                 skinsContainerBackground:"000000",
-                OwnCellColor:"000000",
                 ejectedColor: "ffa500",
                 cellNameOutlineColor: "000000",
                 cursorImageUrl: null,
@@ -6686,7 +6685,6 @@ document.head.appendChild(style);
                         cellNameOutlineColor: H.cellNameOutlineColor,
                         cursorImageUrl: H.cursorImageUrl,
                         fadeBoxBackground: H.fadeBoxBackground,
-                        OwnCellColor: H.OwnCellColor
                         skinsContainerBackground: H.skinsContainerBackground,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
