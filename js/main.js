@@ -6008,33 +6008,14 @@ document.head.appendChild(style);
                                 return e.change("cellMassOutlineColor", t)
                             }
                         }
-                    })],
-                                          
-                                          
-                                          
-                                          
-                                          
-                               
-                                          
-                                  s("div", {
-                        staticClass: "container"
-                    }, [s("div", {
-                        staticClass: "section row"
-                    }, [s("div", {
-                        staticClass: "header"
-                    }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
-                        staticClass: "options two-columns" 
-         
-                    },
+                    })], 
 
-        
+                                          [e._v("\n        Map\n        "), e.useWebGL ? e._e() : s("span", {
+                        staticClass: "right silent"
+                    },
                                           
                                           
-                                          
-                                          
-                                          
-                                          
-                                          
+                 
                                           
                                           
                                           
