@@ -59,3 +59,22 @@
 .player-info{
   display: none;
 }
+
+
+div div canvas {
+    background-image: linear-gradient(to right, 
+        black 0%,   /* Siyah */
+        #453746 100%, /* Deniz Mavisi */
+        black 100%  /* Beyaz */
+    );
+    background-size: 100% 100%; /* Üç katı boyut */
+    animation: rainbowAnimation 10s linear infinite;
+}
+
+a.youtube-link {
+  display: none;
+}
+
+#skins-link {
+  background-color: #121212;
+}
