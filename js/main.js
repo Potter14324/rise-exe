@@ -5918,7 +5918,6 @@ document.head.appendChild(style);
                 
 
 
-                1),t._v(" "),s("div",{staticClass:"color-input"},[s("span",[t._v("Owned cells")]),t._v(" "),s("color-option",{staticClass:"right",attrs:{disabled:!t.useOwnCellColor,value:t.ownCellColor},on:{input:function(s){return t.change("ownCellColor",s)}}})],
                              
 
 
