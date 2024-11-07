@@ -6014,16 +6014,20 @@ document.head.appendChild(style);
                                           
                                           
                                           
+                               
                                           
-                                [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
+                                  s("div", {
+                        staticClass: "container"
+                    }, [s("div", {
+                        staticClass: "section row"
+                    }, [s("div", {
+                        staticClass: "header"
+                    }, [e._v("\n        Colors and images\n    ")]), e._v(" "), s("div", {
                         staticClass: "options two-columns" 
          
-                    },          
-                                          
-                                          
-                                          
-                                          
-                                          
+                    },
+
+        
                                           
                                           
                                           
