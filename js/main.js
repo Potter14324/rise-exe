@@ -6010,10 +6010,7 @@ document.head.appendChild(style);
                         }
                     })], 
 
-                                          [e._v("\n        Map\n        "), e.useWebGL ? e._e() : s("span", {
-                        staticClass: "right silent"
-                    },
-                                          
+                                       
                                           
                  
                                           
