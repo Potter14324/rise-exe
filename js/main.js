@@ -5901,7 +5901,7 @@ document.head.appendChild(style);
                     }, [s("span", [e._v("Owned Cells")]), e._v(" "), s("color-option", {
                         staticClass: "right",
                         attrs: {
-                             disabled:!e.useOwnCellColor,
+                             
                             value: e.ownCellColor
                                  
                                
