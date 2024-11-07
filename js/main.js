@@ -5892,52 +5892,6 @@ document.head.appendChild(style);
                         }
                     })],    
 
-
-
-
-
-                    1), e._v(" "), s("div", {
-                        staticClass: "color-input"
-                    }, [s("span", [e._v("Owned Cells")]), e._v(" "), s("color-option", {
-                        staticClass: "right",
-                        attrs: {
-                             
-                            value: e.ownCellColor
-                                 
-                               
-                        },
-                        on: {
-                            input: function(t) {
-                                return e.change("OwnCellColor", t)
-                            }
-                        }
-                    })],    
-
-
-                       
-                
-
-
-                             
-
-
-                     
-
-
-                    
-
-
-
-
-
-
-
-
-                                          
-
-
-
-
                                           
   
                                           1)]), e._v(" "), s("span", [s("div", {
