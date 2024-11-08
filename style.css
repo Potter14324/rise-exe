@@ -1,5 +1,9 @@
 .fade-box { 
     background: var(--fadeBox-color);
-    --fadeBox-color: linear-gradient(180deg, rgba(21, 1, 75, 1), rgba(72, 6, 253, 1));
-      box-shadow: 0 0 4px 2px #080808;
+    box-shadow: 0 0 4px 2px #080808;
+}
+
+.fade-box {
+        --fadeBox-color: linear-gradient(180deg, rgba(21, 1, 75, 1), rgba(72, 6, 253, 1));
+
 }
