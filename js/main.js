@@ -1168,7 +1168,6 @@ document.head.appendChild(style);
                 backgroundColor: "101010",
                 borderColor: "000000",
                 foodColor: "ffffff",
-                fadeBoxBackground: "000000",
                 skinsContainerBackground:"000000",
                 ejectedColor: "ffa500",
                 cellNameOutlineColor: "000000",
@@ -6709,7 +6708,7 @@ document.head.appendChild(style);
                         ejectedColor: H.ejectedColor,
                         cellNameOutlineColor: H.cellNameOutlineColor,
                         cursorImageUrl: H.cursorImageUrl,
-                        fadeBoxBackground: H.fadeBoxBackground,
+                        fadeBoxColor: H.fadeBoxColor,
                         skinsContainerBackground: H.skinsContainerBackground,
                         backgroundImageUrl: H.backgroundImageUrl,
                         virusImageUrl: H.virusImageUrl,
@@ -6799,7 +6798,6 @@ document.head.appendChild(style);
                                     case "backgroundColor":
                                         G.renderer.backgroundColor = PIXI.utils.string2hex(i);
                                         break;
-                                    case "fadeBoxBackground":   
                                     case "cellNameOutlineColor":
                                     case "cellNameFont":
                                     case "cellNameWeight":
